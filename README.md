@@ -8,14 +8,15 @@ A modern, browser-based web app that extracts text from images using OCR and ret
 
 ## 📌 Features
 
-- ✅ Upload images (JPG, PNG, etc.)
-- ✅ Extract text using Tesseract.js (client-side OCR)
-- ✅ Get JSON output with:
-  - Extracted text
-  - Confidence score
-  - Word count
-- ✅ Clean and responsive UI (built with Tailwind CSS)
-- ✅ Entirely browser-based — no server or API calls
+* ✅ Upload images (JPG, PNG, etc.)
+* ✅ Extract text using Tesseract.js (client-side OCR)
+* ✅ Get JSON output with:
+
+  * Extracted text
+  * Confidence score
+  * Word count
+* ✅ Clean and responsive UI (built with Tailwind CSS)
+* ✅ Entirely browser-based — no server or API calls
 
 ---
 
@@ -27,29 +28,47 @@ A modern, browser-based web app that extracts text from images using OCR and ret
   "confidence": 91,
   "wordsFound": 5
 }
-⚙️ Tech Stack
-Frontend Framework: Vite + React
+```
 
-OCR Engine: Tesseract.js
+---
 
-Styling: Tailwind CSS
+## ⚙️ Tech Stack
 
-🚀 Getting Started Locally
-Clone the repo and run the app locally:
+* **Frontend Framework:** Vite + React
+* **OCR Engine:** Tesseract.js
+* **Styling:** Tailwind CSS
 
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/ocr-to-json-parser.git
-cd ocr-to-json-parser
-npm install
-npm run dev
-Then open http://localhost:5173 in your browser.
+---
 
-📁 Project Structure
-pgsql
-Copy
-Edit
+## 🚀 Getting Started Locally
+
+1. **Clone the repo**
+
+   ```bash
+   git clone https://github.com/yourusername/ocr-to-json-parser.git
+   cd ocr-to-json-parser
+   ```
+
+2. **Install dependencies**
+
+   ```bash
+   npm install
+   ```
+
+3. **Run the dev server**
+
+   ```bash
+   npm run dev
+   ```
+
+4. **Open in browser**
+   Navigate to `http://localhost:5173`
+
+---
+
+## 📁 Project Structure
+
+```
 ocr-to-json-parser/
 ├── public/
 │   └── index.html
@@ -61,3 +80,18 @@ ocr-to-json-parser/
 ├── tailwind.config.js
 ├── vite.config.js
 └── package.json
+```
+
+---
+
+## 📄 License
+
+This project is open-source and free to use under the [MIT License](LICENSE).
+
+---
+
+## 🙋‍♂️ Author
+
+**Mridul Tiwari**
+[LinkedIn](https://linkedin.com/in/mridultiwari)
+Built with ❤️ for learning and exploration.
