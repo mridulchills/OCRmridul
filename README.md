@@ -92,6 +92,5 @@ This project is open-source and free to use under the [MIT License](LICENSE).
 
 ## 🙋‍♂️ Author
 
-**Mridul Tiwari**
-[LinkedIn]([https://www.linkedin.com/in/mridul-tiwari-502825291/])
+[**Mridul Tiwari**](https://www.linkedin.com/in/mridul-tiwari-502825291/)
 Built with ❤️ for learning and exploration.
